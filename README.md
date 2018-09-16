@@ -23,4 +23,4 @@ A Per-Pixel linked list is used to store fragment information that are calculate
 Where v0/1/2 are obtained using a Geometry shader.
 
 ### Ray Tracing
-The ray tracing step uses screen space ray tracing which visits pixels that are occupied by a given ray. Pixel position given by the screen space ray tracing is used to access the linked list for that pixel. Ray-Triangle intersection test is performed by iterating through the linked list using the vertices position stored in each element.
+The ray tracing step uses screen space ray tracing (from [kode80SSR](https://github.com/kode80/kode80SSR)) which visits pixels that are occupied by a given ray. Pixel position given by the screen space ray tracing is used to access the linked list for that pixel. Ray-Triangle intersection test is performed by iterating through the linked list using the vertices position stored in each element.
