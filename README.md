@@ -19,6 +19,7 @@ A Per-Pixel linked list is used to store fragment information that are calculate
 * v2
 * mat (Material property)
 * var (Variable to be used with metal or glass material)
+
 Where v0/1/2 are obtained using a Geometry shader.
 
 ### Ray Tracing
